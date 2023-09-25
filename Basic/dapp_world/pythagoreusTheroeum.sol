@@ -5,6 +5,7 @@ pragma solidity ^0.8.20;
 Given 3 numbers, we want to check wheather it is possible to create a right 
 angled triangle such that the lengths of the 3 sides of the triangle are same as the 3 numbers
 */
+
 contract RightAngledTriangle {
     //To check if a triangle with side lenghts a,b,c is a right angled triangle
     function check(uint a, uint b, uint c) public pure returns (bool) {
